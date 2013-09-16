@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  background-color: #ECECEC;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #3c3c3c;
+  
+  background-repeat: repeat;
+  text-align: center;
+  margin:0;
+}
+
+.demo p:first-child {
+  text-align: left;
+  font-family: cursive;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: 5px;
+  color: #fff;
+}
+
+.demo p:first-child span {
+  cursor: pointer;
+  text-shadow: 0px 0px 2px rgb(102,202,255),
+    0px 1px 1px #ddd,
+    0px 2px 1px #d6d6d6,
+    0px 3px 1px rgb(102,202,255) ,
+    0px 4px 1px #c5c5c5,
+    0px 5px 1px rgb(102,202,255) ,
+    0px 6px 1px #bbb,
+    0px 7px 1px rgb(102,202,255) ,
+    0px 8px 3px rgba(100, 100, 100, 0.4),
+    0px 9px 5px rgba(100, 100, 100, 0.1),
+    0px 10px 7px rgba(100, 100, 100, 0.15),
+    0px 11px 9px rgba(100, 100, 100, 0.2),
+    0px 12px 11px rgba(100, 100, 100, 0.25),
+    0px 13px 15px rgba(100, 100, 100, 0.3);
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+.demo p:first-child span:hover {
+  text-shadow: 0px 0px 2px rgb(102,202,255),
+    0px 1px 1px rgb(102,202,255),
+    0px 2px 1px rgb(102,202,255),
+    0px 3px 1px rgb(102,202,255),
+    0px 4px 1px rgb(102,202,255),
+    0px 5px 1px rgb(102,202,255),
+    0px 6px 1px rgb(102,202,255),
+    0px 7px 1px rgb(102,202,255),
+    0px 8px 3px rgb(102,202,255),
+    0px 9px 5px rgb(102,202,255),
+    0px 10px 7px rgb(102,202,255),
+    0px 11px 9px rgb(102,202,255),
+    0px 12px 11px rgb(102,202,255),
+    0px 13px 15px rgb(102,202,255);
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+.demo p:not(:first-child) {
+  text-align: left;
+  color: #666;
+  font-family: cursive;
+  font-size: 20px;
+  text-shadow: 0 1px 0 #fff;
+  letter-spacing: 1px;
+  line-height: 2em;
+  margin-top: -50px;
+}
+
+#container {
+	margin:0 auto;
+	width:1100px;
+	text-align: center;
+}
+#header {
+	height:208px;
+	margin-bottom:0px;
+	overflow: visible;
+}
+.mainContent {  margin-bottom:0px;}
+#footer {
+	padding-top:120px;
+	width:100%;
+	height:150px;
+	background-color: #EBEBEB;
+	filter: alpha(Opacity=80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+	clear: both;
+}
+.clearfix
+{
+clear:both;
+zoom:1;
+}
+
+.clearfix:after
+{
+content: "\20";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+.logo-left {
+	background-image: url(../img/xieyi.png);
+	height: 92px;
+	width: 165px;
+	float:left;
+}
+ .logo {
+	background-image: url(../img/logo_r2_c2.png);
+	background-repeat: no-repeat;
+	height: 185px;
+	width: 456px;
+	float:left;
+}
+.logo-right {
+	background-image: url(../img/zhifeiji.png);
+	height: 197px;
+	width: 110px;
+	float:left;
+}
+.submi {
+	height: 53px;
+}
+.minbody {
+	width: 362px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.userinfo {
+	background-image: url(../img/xinxi.png);
+	height: 301px;
+	width: 375px;
+}
+.btn-reg {
+	background: url(../img/btn-reg.png);
+	height: 55px;
+	width: 157px;
+	margin-right: auto;
+	margin-left: auto;
+	cursor: pointer;
+}
+.btn-reg:hover
+{
+	background: url(../img/btn-reg.png) 0 -55px;
+}
+.logo-plate {
+	width: 732px;
+	margin-right: auto;
+	margin-left: auto;
+}
+input
+{
+margin: 0em;
+font: -webkit-small-control;
+letter-spacing: normal;
+word-spacing: normal;
+line-height: normal;
+text-transform: none;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+text-align: -webkit-auto;
+
+}
+.userinfo .text ul{
+margin:0px;
+padding:0px;
+
+}
+.userinfo .text li{
+	height: 30px;
+	margin-top:2px;
+}
+.userinfo .text input{
+	height: 30px;
+	width: 190px;
+
+}
+.btn-xieyi
+{
+float: right;
+width: 41px;
+height: 45px;
+background: url(../img/btn_xieyi.png);
+cursor: pointer;
+}
+.btn-xieyi:hover
+{
+width:41px;
+height:45px;
+background: url(../img/btn_xieyi.png)0 -45px;
+}
+
+.balckscreen
+{
+height:100%;
+width:100%;
+position:fixed;
+background: rgba(0, 0, 0, 0.32);
+display: none;
+float: left;
+left: 0;
+top: 0;
+}
+.agreedment-holder
+{
+height: 500px;
+width: 600px;
+left: 32%;
+top: 15%;
+position: absolute;
+background: #fff;
+box-shadow: 0 0 5px;
+}
+.agreedment-title
+{
+color: #76DBFC;
+font-size: 26px;
+margin-top: 30px;
+}
+.agreedment-content
+{
+width: 495px;
+height: 374px;
+overflow: auto;
+margin-right: auto;
+margin-left: auto;
+color: #6FD0F0;
+}
+.tip
+{
+width: 20px;
+height: 20px;
+float: right;
+margin-top: 6px;
+margin-right: 4px;
+}
+.true
+{
+background: url(../img/true.png);
+}
+.false
+{
+background: url(../img/false.png);
+}

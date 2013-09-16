@@ -1,0 +1,12 @@
+[ 2013-08-28T00:16:44+08:00 ] 127.0.0.1 /index.php/Gift/lipinstatus.html
+ERR: 非法操作:lipinstatus
+
+[ 2013-08-28T00:16:53+08:00 ] 127.0.0.1 /index.php/Gift/shenqing.html
+ERR: 非法操作:shenqing
+
+[ 2013-08-28T00:17:01+08:00 ] 127.0.0.1 /index.php/Gift/shenhe.html
+ERR: 非法操作:shenhe
+
+[ 2013-08-28T00:17:04+08:00 ] 127.0.0.1 /index.php/Gift/usercenter.html
+ERR: 非法操作:usercenter
+

@@ -1,0 +1,429 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+ .select {
+	background-image: url(img/lipincenter_r3_c3.png);
+	height: 20px;
+	background-repeat:no-repeat;
+}
+
+
+
+/* 要重用的各种类 */
+.fltrt { /* 此类可用来使页面中的元素向右浮动。浮动元素必须位于页面上要与之相邻的元素之前。 */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* 此类可用来使页面上的元素向左浮动 */
+	float: left;
+	margin-right: 8px;
+}
+
+
+
+.lipin {
+	background-image: url(../img/lipincenter_r5_c2.png);
+	height: 318px;
+	width: 246px;
+	background-repeat: no-repeat;
+	margin-right: 8px;
+}
+.feed-hoder
+{
+	width: 246px;
+	margin-right: 8px;
+}
+.feed-content {
+	background: url(../img/lipinbox.png) repeat-y;
+	height: 297px;
+}
+.feed-bottom {
+	background: url(../img/lipinbox.png) -246px no-repeat;
+	height:15px;
+}
+.lipin-img
+{
+width: 240px;
+height: 222px;
+margin: 2px 4px;
+border:none;
+overflow: hidden;
+background:#fff;
+}
+.lipin-img img
+{
+width: 240px;
+border:none;
+}
+.feed-title
+{
+width:130px;
+margin-top: 6px;
+margin-left: auto;
+margin-right: auto;
+}
+.feed-title a
+{
+font-size:22px;
+font-weight:bold;
+color:#B8AF9F;
+float:left;
+}
+.feed-title .tip
+{
+width: 35px;
+height: 20px;
+float: right;
+margin-top: 9px;
+margin-right: -35px;
+}
+.feedcount
+{
+display: block;
+height: 20px;
+background: url(../img/newfeed.png) 0px -16px no-repeat;
+color:#fff;
+font-size:12px;
+}
+.newfeed
+{
+display: block;
+height: 15px;
+background: #B8ACAC;
+margin-top: -15px;
+background: url(../img/newfeed.png) no-repeat;
+}
+
+.feed-class
+{
+display: block;
+width: 80px;
+height: 16px;
+float: left;
+margin-left: 84px;
+margin-top: 9px;
+}
+
+ul
+{
+list-style: none;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+
+}
+li
+{
+display:list-item;
+text-align: -webkit-match-parent;
+}
+
+
+
+.pack
+{
+display: block;
+height: 20px;
+width: 20px;
+background: url(../img/pack.png);
+float: right;
+margin-right: 15px;
+margin-top: 8px;
+}
+
+/* 请将所有版本的 IE 的 css 修复放在这个条件注释中 */
+.thrColElsHdr #sidebar1, .thrColElsHdr #sidebar2 { padding-top: 30px; }
+.thrColElsHdr #mainContent { zoom: 1; padding-top: 15px; }
+/* 上面的专用 zoom 属性为 IE 提供避免错误所需的 hasLayout */
+#mainContent .imgplate {
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.imgplate ul {
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 770px;
+	max-width:1020px;
+}
+.imgplate ul li {
+	padding: 0px;
+	display: inline;
+	float: left;
+}
+#mainContent .choice-plate {
+	height: 70px;
+	width: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.choice {
+	background-repeat: no-repeat;
+	height: 80px;
+	margin-top: -8px;
+	position: relative;
+	z-index: 20;
+	margin-left: -300px;
+	background-image: url(../img/saixuan.png);
+	width: 600px;
+	float: left;
+}
+.choice .dengji {
+	float: left;
+	height: 30px;
+	margin-left: 60px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	margin-top: 42px;
+	line-height: 30px;
+}
+.dengji li {
+	background-repeat: no-repeat;
+	height: 25px;
+	width: 25px;
+	margin-left: 5px;
+	background-image: url(../img/start.png);
+	float: left;
+}
+.choice .zhonglei {
+	float: left;
+	height: 30px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	margin-top: 42px;
+	line-height: 30px;
+	margin-left: 20px;
+}
+.zhonglei li {
+	height: 25px;
+	margin-left: 5px;
+	float: left;
+}
+.dengji li.head {
+	background-image: none;
+	width: 50px;
+}
+.package-icon
+{
+width: 80px;
+height: 80px;
+right: 0px;
+bottom: 0px;
+position: fixed;
+background: #fff url(../img/package.png)  no-repeat;
+border-top-left-radius: 6px;
+box-shadow: 0px 0px 3px #A3A3A3;
+z-index:999;
+cursor: pointer;
+}
+.package
+{
+display:none;
+width: 80px;
+height: 80px;
+right: 0px;
+bottom: 0px;
+position: fixed;
+background: #fff;
+border-top-left-radius: 6px;
+box-shadow: 0px 0px 3px #A3A3A3;
+}
+.operate
+{
+width:100%;
+height:20px;
+border-top-left-radius: 6px;
+background: #F0F0F0;
+}
+
+.btn-hide
+{
+float:right;
+margin-right:10px;
+font-size:13px;
+}
+.operate .btn-pre
+{
+display: block;
+width: 16px;
+height: 16px;
+float: left;
+background: url(../img/btn_next.png) 0px -16px no-repeat;
+margin-top: 2px;
+margin-left: 10px;
+}
+
+.operate .btn-next
+{
+display: block;
+width: 16px;
+height: 16px;
+float: left;
+background: url(../img/btn_next.png);
+margin-top: 2px;
+margin-left: 5px;
+}
+.operate .btn-next:hover
+{
+margin-left: 7px;
+}
+.btn-apply
+{
+display: block;
+width: 66px;
+height: 18px;
+float: left;
+background: #3C3C3C;
+margin-top: 1px;
+margin-left: 25px;
+font-size:13px;
+color:#fff;
+border-radius: 3px;
+}
+.lipin-box
+{
+height: 68px;
+overflow: hidden;
+}
+.lipin-list
+{
+float: left;
+padding: 0;
+margin: 0;
+}
+.lipin-list li
+{
+float:left;
+margin-left:15px;
+margin-top: 8px;
+}
+
+.lipin-iocn
+{
+width: 56px;
+height: 56px;
+box-shadow:0px 0px 2px #000;
+border-radius: 4px;
+overflow: hidden;
+display:block;
+}
+.lipin-iocn div
+{
+display:none;
+background: rgba(88, 88, 88, 0.73);
+width:56px;
+z-index: 600;
+position: absolute;
+height: 16px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+}
+.lipin-iocn .count
+{
+display: block;
+min-width: 15px;
+margin-top: 37px;
+margin-left: 39px;
+position: absolute;
+padding: 1px;
+border-radius: 4px;
+color: #fff;
+font-size: 12px;
+z-index: 30;
+background: #4D4D4D;
+}
+.lipin-iocn a
+{
+dispaly:block;
+}
+.del
+{
+height: 12px;
+font-size: 10px;
+float: right;
+margin-right: 4px;
+margin-top: -4px;
+color:#fff;
+cursor: pointer;
+
+}
+.del:HOVER
+{
+color:#79CCE0;
+}
+.lipin-iocn img
+{
+width:56px;
+}
+#mainContent .pagecount {
+	clear: both;
+	height: 30px;
+	width: 482px;
+	margin-right: auto;
+	margin-left: auto;
+	margin:30px auto;
+}
+.prepage,.nextpage,.page
+{
+float:left;
+padding:1px;
+margin-left:4px;
+border: 1px solid #F0F0F0;
+background: #ECECEC;
+}
+.prepage span,.nextpage span
+{
+display:block;
+height:25px;
+width:60px;
+float:left;
+line-height:25px;
+color: #349AD5;;
+font-weight: 600;
+font-size: 15px;
+border: 1px solid #fff;
+background: #FAFAFA;
+text-shadow: -1px -1px #FFF;
+}
+
+
+.page span
+{
+display:block;
+height:25px;
+width:25px;
+float:left;
+background:#fff;
+line-height:25px;
+color: #349AD5;;
+font-weight: 600;
+font-size: 15px;
+border: 1px solid #fff;
+background: #FAFAFA;
+text-shadow: -1px -1px #FFF;
+}
+.curp
+{
+border: 1px solid #FFFFFF;
+background: #89B6CE;
+}
+.curp span
+{
+text-shadow:none;
+border: 1px solid #648CA3;
+background: #4691BD;
+color: #fff;
+}
+
+
+
+
+
+
+

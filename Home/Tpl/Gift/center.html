@@ -1,0 +1,48 @@
+<layout name="layout" />
+<link href="__PUBLIC__/Home/Css/lipin.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+       $("#idx_2").addClass("cur");
+</script>
+<div id="mainContent">
+
+    <div class="imgplate">
+        <ul>
+            <volist name="list" id="vo">
+                <li>
+                    <div class="feed-hoder">
+                        <div class="feed-content" id="feedid-01">
+                            <div class="lipin-img">
+                                <img src="__PUBLIC__/Gift/{<$vo.L_path>}"></img>
+                            </div>
+                            <div class="feed-title">
+                                <a href="__URL__/show/p/{<$vo.L_id>}" title="{<$vo.L_name>}">
+                                    {<$vo.L_name>}
+                                </a>
+                                <div class="tip">
+                                    <span class="feedcount">{<$vo.L_count>}</span>
+                                </div>
+                            </div>
+                            <a href="__URL__/show/p/{<$vo.L_id>}" class="feed-class"> 
+                                <img src="__PUBLIC__/Gift/level/level_{<$vo.L_level>}.png">
+                            </a>   
+                            
+                        </div>
+                        <div class="feed-bottom"></div>
+                    </div>
+                </li>
+            </volist> 
+        </ul>
+        <div class="clearfix">
+        </div>
+    </div>
+
+    <div class="pagecount">
+        {<$page>}
+    <!--
+        <a href="" class="prepage"><span>上一页</span></a>
+        <a href="" class="page"><span>1</span></a>  
+        <a href="" class="page curp"><span>2</span></a> 
+        <a href="" class="page"><span>3</span></a>
+        <a href="" class="nextpage"><span>下一页</span></a> -->
+    </div>
+</div>

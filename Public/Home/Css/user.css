@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+.profile-holder
+{
+width:860px;
+min-height:470px;
+margin: 0 auto;
+margin-top:20px;
+margin-bottom:40px;
+box-shadow: 0 0 3px #BEBEBE;
+background: #fff;
+}
+.profile-title
+{
+height: 40px;
+border-bottom: 1px solid #E9E9E9;
+margin-bottom: 20px;
+background: #B8F1FF;
+line-height: 40px;
+}
+.profile-title span
+{
+float:left;
+}
+.profile-title .icon
+{
+display: block;
+width: 40px;
+height: 40px;
+}
+.profile-title .text
+{
+font-weight: bold;
+color: #5EB2FF;
+}
+.profile-title .en
+{
+font-size: 12px;
+margin-left: 20px;
+margin-top: 2px;
+color: #B1B1B1;
+}
+
+.set-list-holder
+{
+float: left;
+height: 350px;
+width: 155px;
+border-right: 1px solid #F0F0F0;
+}
+.set-list-holder ul 
+{
+margin: 0px;
+padding: 0px;
+margin-left: 20px;
+margin-right: 3px;
+}
+.set-list-holder ul li
+{
+float: left;
+width: 100%;
+height: 36px;
+padding: 0px;
+margin: 0px;
+font-size: 15px;
+color: #A0A0A0;
+line-height: 40px;
+border-left: 3px solid #fff;
+}
+.set-list-holder ul li:hover
+{
+border-left: 3px solid #B8F1FF;
+background: #F5F5F5;
+}
+.set-list-holder ul li a
+{
+display: list-item;
+color: #A0A0A0;
+}
+.set-list-holder ul li a:hover
+{
+display: list-item;
+color: #2B2B2B;
+}
+

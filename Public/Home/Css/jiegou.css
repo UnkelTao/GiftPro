@@ -1,0 +1,307 @@
+@charset "utf-8";
+/* CSS Document */
+
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif; /* 最好将 body 元素的边距和填充设置为 0px 以覆盖不同的浏览器默认值 */
+	padding: 0;
+	text-align: center; /* 在 IE 5* 浏览器中，这会将容器居中。文本随后将在 #container 选择器中设置为默认左对齐 */
+	color: #000000;
+	background-image: url(content-bg.png);
+	min-width:1000px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+ #container {
+	text-align: center; /* 这将覆盖 body 元素上的“text-align: center”。 */
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	font-family: "Microsoft Yahei", "微软雅黑", "幼圆", Tahoma, Arial, Helvetica, STHeiti;
+} 
+ #header {
+	height: 174px;
+	padding-top: 0px;
+	padding-bottom: 0;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+} 
+
+
+ #mainContent {
+	margin-bottom: 0px;
+	width: 100%;
+	min-height: 475px;
+	margin-right: auto;
+	margin-left: auto;
+	background: url(../img/gif.gif);
+	 -webkit-box-shadow:0px 0px 10px #bbb;
+    -moz-box-shadow:0px 0px 10px #bbb;
+	box-shadow: 0px 0px 10px #bbb;
+	display:inline-block;
+	  /* For IE 8 */
+filter: progid:DXImageTransform.Microsoft.shadow(Color='#d8d8d8', Direction='35', Strength='4') progid:DXImageTransform.Microsoft.shadow(Color='#d8d8d8', Direction='135', Strength='4');
+	zoom: 1;
+} 
+#footer {
+width: 100%;
+padding-top: 30px;
+height: 70px;
+clear: both;
+font-size: 12px;
+} 
+
+ #header .logo {
+	height: 192px;
+	width: 1000px;
+	margin-top: 22px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+	background: url(../img/logo_r2_c2.png) no-repeat;
+}
+
+.clearfix
+{
+clear:both;
+zoom:1;
+}
+
+.clearfix:after
+{
+content: "\20";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+#topbar {
+height: 32px;
+position: fixed;
+z-index: 999;
+width: 100%;
+top: 0px;
+background: rgba(252, 252, 252, 0.48);
+border-bottom: 1px solid #FDFDFD;
+}
+
+ul
+{
+list-style: none;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+
+}
+li
+{
+display:list-item;
+text-align: -webkit-match-parent;
+}
+
+/* 请将所有版本的 IE 的 css 修复放在这个条件注释中 */
+ /*#sidebar1, .thrColElsHdr #sidebar2 { padding-top: 30px; }*/
+/* #mainContent { zoom: 1; padding-top: 15px; }*/
+/* 上面的专用 zoom 属性为 IE 提供避免错误所需的 hasLayout */
+.add-plate {
+	height: 150px;
+	width: 700px;
+	padding-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	clear: both;
+}
+a
+{
+text-decoration: none;
+}
+#header li
+{
+	color: #66caff;
+	list-style: none;
+	float: left;
+	margin-right: 2px;
+	font-weight: bold;
+	font-size: 18px;
+}
+#header ul li  a
+{
+	color: #66caff;
+	text-decoration: none;
+	display: block;
+	width: 84px;
+	height: 64px;
+	line-height: 60px;
+}
+
+#header ul
+{
+	float: right;
+	margin-top: 100px;
+	color: #66caff;
+	margin-right: 50px;
+	margin-bottom: 9px;
+}
+#header li a:hover
+{
+	background: url("../img/logo_r2_c3.png") no-repeat;
+	color: #fff;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#header li a.cur
+{
+	background: url("../img/logo_r2_c3.png") no-repeat;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	color: #ffffff;
+}
+	
+ #ctop{ min-width: 1000px; width:e-xpression(document.body.clientWidth < 1000? "1000px": "auto" );} 
+
+.topbar
+{
+width:100%;
+height:32px;
+}
+.logo-icon
+{
+	width:93px;
+	height: 32px;
+	background: url(../img/logo_icon.png)  no-repeat;
+	margin-left:60px;
+	float: left;
+}
+.tools
+{
+float: right;
+width: 200px;
+height: 32px;
+margin-right: 20px;
+}
+.msgico,.setico,.logoutico
+{
+display: block;
+color: #fff;
+height: 32px;
+width: 32px;
+line-height:32px;
+float: left;
+z-index: 9999;
+}
+.icona
+{
+display: block;
+color: #fff;
+height: 32px;
+width: 32px;
+line-height: 32px;
+float: left;
+z-index: 9999;
+}
+.user{
+display: block;
+font-family: "Microsoft Yahei", "微软雅黑", "幼圆", Tahoma, Arial, Helvetica, STHeiti;
+height: 32px;
+width: 82px;
+line-height: 32px;
+float: left;
+z-index: 9999;
+}
+.icona:hover
+{
+width:30px;
+background:#fff;
+border-top: 2px solid #74D6FC;
+border-left: 1px solid #E0E0E0;
+border-right: 1px solid #E0E0E0;
+}
+.msgico,.setico,.logoutico
+{
+display: block;
+width:16px;
+height:16px;
+margin-top:8px;
+margin-left: 9px;
+}
+.msgico
+{
+margin-top:8px;
+margin-left: 7px;
+background: url(../img/topbar-icon.png) 0px -35px  no-repeat;
+float: left;
+}
+.newMsg
+{
+display: block;
+width: 10px;
+height: 10px;
+margin-top: 5px;
+margin-left: -3px;
+background: url(../img/topbar-icon.png) no-repeat;
+float: left;
+}
+.setico
+{
+background: url(../img/topbar-icon.png) 0px -59px no-repeat;
+}
+.logoutico
+{
+background: url(../img/topbar-icon.png) 0px -82px no-repeat;
+}
+.logoutico:hover
+{
+background: url(../img/topbar-icon.png) -25px -82px no-repeat;
+}
+.downlist
+{
+display:none;
+width: 120px;
+background: #fff;
+border: 1px solid #CFCFCF;
+position: absolute;
+color: #000;
+margin-left: -90px;
+margin-top: 33px;
+z-index: -1;
+}
+.downlist ul
+{
+margin:0px;
+padding:0px;
+padding-top:4px;
+padding-bottom:6px;
+}
+.downlist ul li
+{
+float:left;
+width:120px;
+height:20px;
+margin:0px;
+line-height:20px;
+}
+.downlist ul li a
+{
+float:left;
+width:120px;
+margin:0px;
+padding:0px;
+font-size:13px;
+color:#000;
+}
+.downlist ul li a span
+{
+float: left;
+color: #4779E4;
+font-size: 12px;
+margin-left: 10px;
+}

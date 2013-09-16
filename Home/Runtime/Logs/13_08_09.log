@@ -1,0 +1,27 @@
+[ 2013-08-09T12:53:08+08:00 ] 127.0.0.1 /index.php/Gift/lipin.html
+ERR: 非法操作:lipin
+
+[ 2013-08-09T13:03:44+08:00 ] 127.0.0.1 /index.php/Gift/lipinstatus.html
+ERR: 非法操作:lipinstatus
+
+[ 2013-08-09T13:19:51+08:00 ] 127.0.0.1 /index.php/Gift/Gift/home
+ERR: 非法操作:Gift
+
+[ 2013-08-09T13:20:06+08:00 ] 127.0.0.1 /index.php/Gift/Gift/home
+ERR: 非法操作:Gift
+
+[ 2013-08-09T13:25:50+08:00 ] 127.0.0.1 /index.php/Gift/show/p/1
+ERR: Model:limt您所请求的方法不存在！
+
+[ 2013-08-09T14:15:57+08:00 ] 127.0.0.1 /index.php/Gift/shenhe.html
+ERR: 非法操作:shenhe
+
+[ 2013-08-09T15:39:48+08:00 ] 127.0.0.1 /index.php/Gift/lipinstatus.html
+ERR: 非法操作:lipinstatus
+
+[ 2013-08-09T15:40:52+08:00 ] 127.0.0.1 /index.php/Gift/lipinstatus.html
+ERR: 非法操作:lipinstatus
+
+[ 2013-08-09T15:42:45+08:00 ] 127.0.0.1 /index.php/Gift/lipinstatus.html
+ERR: 非法操作:lipinstatus
+

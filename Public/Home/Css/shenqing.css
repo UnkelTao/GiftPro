@@ -1,0 +1,268 @@
+@charset "utf-8";
+
+ul,li{
+padding:0px;
+margin:0px;
+list-style: none;
+}
+
+.shenqing-plate .continue {
+	float: right;
+	height: 40px;
+	width: 170px;
+	margin-top: 160px;
+}
+ .shenqing-plate .apply {
+	float: right;
+	height: 40px;
+	width: 170px;
+	margin-top: 160px;
+}
+ .status-ac {
+	width: 870px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 40px;
+}
+.buzhou {
+	background-image: url(../img/bz.png);
+	height: 97px;
+	width: 400px;
+	margin-top: -16px;
+	position: absolute;
+	z-index: 20;
+}
+.buzhou1 {
+	height: 70px;
+}
+
+.note-holder
+{
+width: 860px;
+clear: both;
+margin-right: auto;
+margin-left: auto;
+}
+.note-top
+{
+height: 32px;
+background: url(../img/notetop.png) -17px;
+width: 860px;
+margin-top: -28px;
+float: left;
+border-right: 1px solid #E4E4E4;
+}
+
+.note-content
+{
+min-height:150px;
+ background:#fff url(../img/note-line.png) 0px -41px;
+ margin-top: 37px;
+ box-shadow: 0px 0px 3px #D3D3D3;
+}
+.btn-holder
+{
+height: 30px;
+margin-bottom: 41px;
+width: 300px;
+float: right;
+margin-top: 10px;
+}
+#apply-reason{
+width: 800px;
+min-height: 137px;
+margin-top: 6px;
+background: none;
+border: none;
+font-size: 16px;
+line-height: 27px;
+font-family: "Microsoft Yahei", "微软雅黑", "幼圆", Tahoma, Arial, Helvetica, STHeiti;
+outline: 0;
+}
+
+/*  table*/
+
+/* cell size */
+.c1{
+width: 297px;
+}
+.c2{
+width: 101px;
+}
+.c3{
+width: 121px;
+}
+.c4
+{
+width: 96px;
+}
+.c5
+{
+width: 121px;
+}
+
+.c6{
+width: 111px;
+}
+.table-header
+{
+}
+.table-row-collection 
+{
+	width: 870px;
+}
+.c00,.c01,.c02,.c03,.c04,.c05,.c06 
+{
+	font: 12px/74px Arial;
+}
+.shenqing-tlist .c00
+{
+  width: 92px;
+  border-right: 0;
+}
+.c00 a
+{
+display: block;
+}
+.c00 img
+{
+width: 54px;
+margin: 10px;
+}
+.shenqing-tlist .c01
+{
+width: 200px;
+}
+.shenqing-tlist .c01 a
+{
+margin:5px;
+float:left;
+}
+.shenqing-tlist .c02
+{
+width: 100px;
+}
+.shenqing-tlist .c03
+{
+width: 120px;
+}
+.shenqing-tlist .c04
+{
+width: 95px;
+}
+.shenqing-tlist .c05
+{
+width: 120px;
+}
+.countbox
+{
+width: 68px;
+height: 30px;
+float: left;
+margin-top: 22px;
+margin-left: 28px;
+}
+.countbox input
+{
+float:left;
+width:40px;
+height:25px;
+line-height: 25px;
+border: 1px solid #c4c4c4;
+background: #fff;
+text-align: center;
+margin-right:1px;
+}
+.countbox a
+{
+float: left;
+width: 19px;
+height: 12px;
+line-height: 10px;
+display: block;
+border: 1px solid #c9c9c9;
+margin-bottom: 1px;
+background: #fff;
+}
+
+.shenqing-tlist .c06
+{
+width: 137px;
+border-right: 0px;
+}
+
+.shenqing-tlist li
+{
+overflow: hidden;
+height: 74px;
+}
+.shenqing-tlist {
+	height: 74px;
+	clear: both;
+}
+.status-ac .shenqing-plate {
+	width: 860px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 200px;
+	clear: both;
+	padding-top: 20px;
+}
+.liyou {
+height: 40px;
+width: 160px;
+background: RGB(184,241,255);
+line-height: 40px;
+border: 3px solid #fff;
+box-shadow: 0px 0px 4px #A37878;
+font-size: 21px;
+color: #5EB2FF;
+}
+
+.c21,.c31
+{
+width:170px;
+}
+.c22,.c32
+{
+width:150px;
+}
+.c23,.c33
+{
+width:290px;
+}
+.c24{
+width:250px;
+}
+.user-info {
+	width: 860px;
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+	background: #fefcf8;
+	border-bottom: 1px solid #e1e1e1;
+	padding-bottom: 2px;
+	height: 44px;
+}
+.c31,.c32,.c33,.c34 {
+	float: left;
+	display: block;
+	font: 15px/65px "Microsoft Yahei";
+	text-align: center;
+	border-right: 1px solid #e1e1e1;
+}
+.user2 .c34 {
+border-right-width: 0px;
+width:245px;
+}
+.sub {
+height: 40px;
+width: 120px;
+background: #FDA560;
+line-height: 30px;
+border: 3px solid #fff;
+box-shadow: 0px 0px 4px #A37878;
+font-size: 21px;
+color: #fff;
+}
+/* end table*/

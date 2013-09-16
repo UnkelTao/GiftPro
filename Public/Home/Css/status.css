@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+
+
+.status-plate {
+	height: 80px;
+	padding-top: 50px;
+}
+.status-plate .status {
+	height: 51px;
+	width: 848px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.status .status-img {
+	height: 51px;
+	width: 848px;
+	background-image: url(../img/jindu.png);
+	background-repeat: no-repeat;
+	z-index: 300;
+	position: relative;
+}
+
+.time-node
+{
+display:block;
+height:32px;
+width:32px;
+float:left;
+margin-right: 113px;
+margin-top: 9px;
+}
+.time-node span
+{
+display: block;
+background: #000;
+width: 20px;
+height: 20px;
+margin-top: 7px;
+margin-left: 6px;
+}
+.fir
+{
+margin-left: 111px;
+}
+
+.status .car-line {
+	height: 51px;
+	width: 848px;
+	margin-right: auto;
+	margin-left: auto;
+	position: absolute;
+}
+.car-line .car {
+	float: left;
+	height: 80px;
+	width: 80px;
+	margin-top: -75px;
+	margin-left: -50px;	
+	z-index: 299;
+}
+.car-line .car {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+.line
+{
+height: 26px;
+width: 28px;
+background: #51AC26;
+float: left;
+margin-top: 7px;
+margin-left: 100px;
+}
+.line-bg
+{
+background: #629EC0;
+height: 36px;
+margin: 6px 10px;
+}
+
+
+
+/*  stauts */
+
+.shenqing-title li.c1 ,.shenqing-title li.c5
+{
+width: 165px;
+}
+
+.shenqing-title li.c2{
+	width: 80px;
+}
+.shenqing-title li.c3{
+	width: 150px;
+}
+.shenqing-title li.c4{
+width: 95px;
+}
+
+.shenqing-title li.c6{
+	width: 125px;
+}
+
+.shenqing-tlist .c01,.shenqing-tlist .c05
+{
+	width: 164px;
+}
+.shenqing-tlist .c01 a
+{
+float: none;
+display: list-item;
+}
+
+.shenqing-tlist .c02
+{
+	width: 79px;
+}
+.shenqing-tlist .c03
+{
+	width: 149px;
+}
+.shenqing-tlist .c04
+{
+	width: 94px;
+}
+
+.shenqing-tlist .c06
+{
+	width: 122px;
+	height: 60px;
+}
+
+.shenqing-title,.shenqing-tlist,.status-list,.collection_block
+{
+width:955px;
+}
+.shenqing-tlist {
+	float: left;
+	height: 60px;
+}
+.shenqing-tlist:hover
+{
+background:#E2EFFA;
+}
+.selectlist
+{
+background:#E1EAF5;
+}
+.status-list {
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 40px;
+}
+
+.collection_block {
+	background-color: #F5FAFA;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CAE8EA;
+	display:inline-block;
+}
+
+
+

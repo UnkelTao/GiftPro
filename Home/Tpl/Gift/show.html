@@ -1,0 +1,47 @@
+<layout name="layout" />
+<link href="__PUBLIC__/Home/Css/single.css" rel="stylesheet" type="text/css" />
+  <div id="mainContent">
+   <div class="show-ac">
+   </div>
+    <div class="feed-holder">
+    <div class="feed-img">
+    <img src="__PUBLIC__/Gift/{<$data.L_path>}"> </img>
+    </div>
+    <div class="feed-describe">
+        <div class="feed-title"><span> {<$data.L_name>}</span><span class="tip"></span></div>
+            <div class="row">
+                <span class="name">等级：</span>
+                <p class="feed-class" href=""> <img src="__PUBLIC__/Gift/level/level_{<$data.L_level>}.png"></p>
+            </div>
+            <div class="row">
+                <span class="name">添加人：</span> 
+                <em>
+                    <span class="feed-score">{<$data.L_adduser>}</span>
+                </em>
+            </div>
+            <div class="row"><span class="name">数量：</span>
+
+                <span class="stock">库存<span class="count"> {<$data.L_count>}</span>　件</span>
+            </div>
+        <div class="describe-holder">
+        <span>礼品介绍</span>
+        <p class="describe-text">
+        {<$data.L_content>}
+        </p>
+        </div>
+        <div class="row">
+          <a href="javascript:;" class="btnbox" >申请该礼品</a>
+        </div>
+    </div>
+    <div class="img-list ">
+        <ul>
+            <li><p class="img-icon" href="" ><img src="__PUBLIC__/Gift/{<$data.L_path>}"/></p></li>
+            <li><p class="img-icon"  href="" ><img src="__PUBLIC__/Gift/{<$data.L_path>}"/></p></li>
+            <li><p class="img-icon"  href="" ><img src="__PUBLIC__/Gift/{<$data.L_path>}"/></p></li>
+            <li><p class="img-icon"  href="" ><img src="__PUBLIC__/Gift/{<$data.L_path>}"/></p></li>
+        </ul>
+        </div>
+        
+    </div>
+    </div>
+ 
