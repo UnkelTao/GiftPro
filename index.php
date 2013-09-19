@@ -12,4 +12,5 @@
 	define('APP_DEBUG', true);
 	//ThinkPHP入口地址
 	require "./ThinkPHP/ThinkPHP.php";
+	
 ?>
