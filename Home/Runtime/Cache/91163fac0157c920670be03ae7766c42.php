@@ -71,7 +71,6 @@
      <div class="table-header">
                 <span class="c1">礼品名称</span>
                 <span class="c2">等级</span>
-                <span class="c3">积分</span>
                 <span class="c4">优惠</span>
                 <span class="c5">数量</span>
                 <span class="c6">操作</span>
@@ -84,7 +83,6 @@
         </li>
         <li class="c01"><a href="#">百度熊</a></li>
                 <li class="c02">3</li>
-                <li class="c03">000</li>
                 <li class="c04">无</li>
                 <li class="c05">
                     <div class="countbox">
@@ -101,7 +99,6 @@
         </li>
         <li class="c01"><a href="#">百度熊</a></li>
                 <li class="c02">3</li>
-                <li class="c03">000</li>
                 <li class="c04">无</li>
                 <li class="c05">
                     <div class="countbox">
@@ -120,7 +117,6 @@
         </li>
         <li class="c01"><a href="#">百度熊</a></li>
                 <li class="c02">3</li>
-                <li class="c03">000</li>
                 <li class="c04">无</li>
                 <li class="c05">
                     <div class="countbox">
